@@ -1,0 +1,139 @@
+/* Entire page */
+.login-page {
+  background: #fdfaf6;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Card */
+.login-card {
+  display: flex;
+  flex-direction: row;
+  width: 900px;
+  max-width: 100%;
+  height: 500px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+}
+
+/* Image section */
+.login-image-section {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.login-bg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Form section */
+.login-form-section {
+  flex: 1;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Title */
+.login-title {
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  color: #3e2c1c;
+  margin-bottom: 20px;
+}
+
+/* Error */
+.login-error {
+  background: #ffe5e5;
+  color: #c40000;
+  text-align: center;
+  padding: 10px;
+  border-left: 4px solid #c40000;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+/* Labels */
+.login-label {
+  font-size: 15px;
+  font-weight: 600;
+  color: #5e4632;
+  margin-bottom: 5px;
+  display: block;
+}
+
+/* Welcome text */
+.login-welcome {
+  font-size: 20px;
+  font-weight: 600;
+  color: #3e2c1c;
+  margin-bottom: 20px;
+}
+
+/* Inputs */
+.login-input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #d4c4b3;
+  outline: none;
+  background: #fff;
+  font-size: 15px;
+  color: #3e2c1c;
+  margin-bottom: 18px;   /* <-- added spacing */
+}
+
+.login-input:focus {
+  border-color: #7b4b2a;
+  box-shadow: 0 0 0 2px rgba(123, 75, 42, 0.35);
+}
+
+/* Button */
+.login-btn {
+  background: #7b4b2a;
+  color: white;
+  padding: 12px;
+  margin-bottom: 5px;
+  border-radius: 8px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.login-btn:hover {
+  background: #5c3620;
+}
+
+/* Links */
+.login-links {
+  margin-top: 18px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  color: #5e4632;
+}
+
+.login-link-left,
+.login-link-right {
+  color: #7b4b2a;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.login-link-left:hover,
+.login-link-right:hover {
+  text-decoration: underline;
+}
